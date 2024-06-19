@@ -1,4 +1,5 @@
-import pickle
+#import pickle
+import joblib
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -44,5 +45,7 @@ aapre_check = mean_absolute_percentage_error(y_test,y_pred)
 print("AAPRE :",aapre_check)
 
 # Pickle the model
-with open('model_Pb.pkl', 'wb') as f:
-    pickle.dump(best_regressor, f)
+# with open('model_Pb.pkl', 'wb') as f:
+#     pickle.dump(best_regressor, f)
+
+joblib.dump(best_regressor, 'model_PB.joblib')

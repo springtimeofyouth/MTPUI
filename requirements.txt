@@ -1,8 +1,8 @@
 numpy==1.23.5
-pandas
-scikit-learn
-matplotlib
-streamlit
-ipykernel
-jupyter
-tensorflow
+pandas==1.5.3
+scikit-learn==1.2.2
+matplotlib==3.6.2
+streamlit==1.19.0
+ipykernel==6.22.0
+jupyter==1.0.0
+altair==4.2.2
